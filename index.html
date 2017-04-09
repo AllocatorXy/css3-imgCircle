@@ -30,7 +30,7 @@
       position: absolute;
       left: 0;
       top: 0;
-      background: url(img2/1.jpg) no-repeat;
+      background: url(img/1.jpg) no-repeat;
       -webkit-background-size: cover;
       background-size: cover;
       border-radius: 8px;
@@ -53,7 +53,7 @@
     const N = 11;
     for (let i = 0; i < N; i++) {
       const oLi = document.createElement('li');
-      oLi.style.backgroundImage = 'url(img2/' + (i + 1) + '.jpg)';
+      oLi.style.backgroundImage = 'url(img/' + (i + 1) + '.jpg)';
       oUl.appendChild(oLi);
       oLi.style.transition = '.4s all ease ' + (N - i) * 200 + 'ms';
       // (function(oLi, i) {
